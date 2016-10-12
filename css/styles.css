@@ -1,0 +1,180 @@
+/*  FONTS  */
+* {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+html {
+	background-color: #f0ead6;
+	/*background-image: url("../images/test.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+}
+
+body {
+	margin: 0;
+	font-size: 1em; 
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 1.75em;
+	color: #f0ead6;
+	text-shadow: -0.5px 0.5px black,
+	 -1px 1px rgb(12,205, 219);
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2 {
+	color: #f0ead6;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*
+h3 {
+	color: white;	
+}
+*/
+
+nav {
+	margin: 0 auto;
+	display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    /*margin-left: 5px;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(12,205, 219,1);
+    border-top: 2px solid rgb(12,205, 219);
+    border-bottom: 2px solid rgb(12,205, 219);
+}
+
+nav li {
+    float: left;
+    margin: 0 5px;
+}
+
+nav li a {
+    display: block;
+    color: #f0ead6;
+   	text-shadow: -1px 1px black;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+nav li a:hover, a:active, a:focus {
+ 
+    background-color: rgb(52,220, 219);
+}
+
+footer {
+ 	/*text-shadow: -0.5px 0.5px black;*/
+ 		text-shadow: -0.5px 0.5px black,
+	 -1px 1px rgb(12,205, 219);
+	margin: 0
+	float: left;
+  background-color: rgba(12,205, 219,1);
+  border-top: 2px solid rgb(12,205, 219);
+	height: 25px;
+	padding-top: 8px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: .85em;
+	color: #f0ead6;
+}
+
+ul {
+	list-style-type: square;
+}
+
+p {
+	color: rgb(12,205, 219);
+	padding: 5px 20px;
+	text-shadow: -0.5px 0.5px black,
+	 -1px 1px #f0ead6;
+	 font-size: 1.1em;
+
+}
+
+
+
+/* --------- CLASS ----------- */
+
+.img-global {
+	display: block;
+	border-radius: 5%;
+	width: 400px;
+	height: 300px;
+	margin: 30px auto;
+}
+
+.wordPop {
+	font-size: 1.2em;
+	color: #f6b1ff;
+	text-shadow: -0.5px 0.5px purple,
+	 -1px 1px rgb(12,205, 219);
+
+}
+
+
+
+/* --------- ID ----------- */
+
+
+#mainHeader {
+	margin-bottom: 200px;
+	width: 100%;
+	position: fixed;
+	display: block;
+	clear: both;
+}
+
+#mainHeader h1 {
+	font-family: "Cinzel";
+	display: block;
+}
+
+#mainDiv {
+	width: 70%;
+	padding-top: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+#li_logo {
+	width: 750px;
+	margin: auto;
+	padding: 8px 0 5px;
+	float: right;
+}
+#topGradient {
+	height: 40px;
+	margin: 0;
+	background: linear-gradient(to bottom right, #f6b1ff, #03c9d2 80%);
+/*	display: block;
+*/
+}
+
+#companyh1 {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: .5em;
+
+}
+
+#activePage {
+	   background-color: rgb(52,220, 219);
+}
+
+
+
+
