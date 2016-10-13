@@ -1,0 +1,74 @@
+.cultureimg {
+	display: block;
+	border-radius: 5%;
+	width: 40%;
+	height: 40%;
+	margin: 30px;
+	-webkit-box-shadow: 10px 10px 44px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 44px -6px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 44px -6px rgba(0,0,0,0.75);
+}
+
+.floaterl {
+	float: left;
+}
+
+.floaterr {
+	float: right;
+	/*margin-left: 2em;*/
+}
+
+.clearlist {
+    list-style-type: none;
+}
+
+.liststyle {
+	margin: 10px 0 10px 0;
+	color: rgb(12,205, 219);
+	text-shadow: -0.5px 0.5px black,
+	 -1px 1px #f0ead6;
+	 font-size: 1.1em;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+p {
+	line-height: 2em;
+	text-align: justify;
+}
+
+li {
+	line-height: 1.75em;
+	text-align: justify;
+}
+
+/***************** ANIMATION ****************/
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: none;  /*this clears the overlap on the navbar*/
+}
+
+.SpeedIn {
+  animation-name: SpeedIn;
+}
+
+@keyframes SpeedIn {
+  from {transform: translate3d(100%, 0, 0) skewX(-20deg);opacity: 0;}
+  35% {transform: skewX(30deg); opacity: .5;}
+  70% {transform: skewX(-10deg); opacity: .75;}
+  to {transform: none; opacity: 1;}
+}
+
+@-webkit-keyframes lightSpeedIn {
+ from {transform: translate3d(100%, 0, 0) skewX(-20deg);opacity: 0;}
+  35% {transform: skewX(30deg); opacity: .5;}
+  70% {transform: skewX(-10deg); opacity: .75;}
+  to {transform: none; opacity: 1;}
+}
