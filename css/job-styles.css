@@ -1,0 +1,51 @@
+#mainDiv {
+	width: 90%;
+}
+
+#hire-wrap {
+	margin-top: 3em;
+	width: 100%;
+	padding-bottom: 100px;
+}
+
+h3 {
+	color: rgb(12,205, 219);
+	padding: 5px 0px;
+	text-shadow: -0.5px 0.5px black,
+	-1px 1px #f0ead6;
+	font-size: 1.8em;
+	display: inline-block;
+}
+
+/*h3 > span {
+	padding-left: 290px;
+}*/
+
+
+.img-jobs {
+	padding-left: 50px;
+	margin-top: 75px;
+}
+
+#hiring p {
+	font-size: 1.8em;
+	color: #3B0186;
+	padding-top: 100px;
+}
+
+.job-title p {
+	font-size: 1.6em;
+	padding: 2px 1px;
+}
+
+
+
+.wordPop {
+	font-size: 1em;
+	color: #f6b1ff;
+	text-shadow: -0.5px 0.5px purple,
+	 -1px 1px rgb(12,205, 219);
+
+}
+
+
